@@ -3,6 +3,7 @@
 On installe [OSDS](https://osds.openlinksw.com/) dans son navigateur.
 
 ### Démo d'intro.
+On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
 Je demdande à une IA de créer une page Web documentée d'un "Event" de formation à la bibliothèque Royale du Maroc (Wikidata) le 4 mai 2026. Présentée par une "Person" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
 
 Nous proposons de préparer des information "fiables" à partir du schéma de données de schema.org.
