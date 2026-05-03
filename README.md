@@ -11,3 +11,4 @@ Les jeux seront publiés ici :
 - Les faits
 - les lieux
 
+On mettra les données en formes avec une IA (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/))
