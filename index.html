@@ -1,79 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titre</title>
+<meta charset="UTF-8">
+<title>Mini biographies enrichies</title>
 
-    <!-- Dublin Core Metadata -->
-    <meta name="DC.title" content="Titre de la ressource">
-    <meta name="DC.creator" content="Nom de l'auteur">
-    <meta name="DC.subject" content="Mots-clés, thématiques">
-    <meta name="DC.description" content="Résumé ou description de la ressource">
-    <meta name="DC.publisher" content="Nom de l'organisation">
-    <meta name="DC.contributor" content="Nom du contributeur">
-    <meta name="DC.date" content="2026-05-04">
-    <meta name="DC.type" content="Text">
-    <meta name="DC.format" content="text/html">
-    <meta name="DC.identifier" content="https://www.exemple.com/article">
-    <meta name="DC.source" content="Source originale si applicable">
-    <meta name="DC.language" content="fr">
-    <meta name="DC.relation" content="Ressource liée">
-    <meta name="DC.coverage" content="Rabat, Maroc">
-    <meta name="DC.rights" content="© 2026 Nom du site">
+<meta name="DC.title" content="Mini biographies enrichies">
+<meta name="DC.type" content="Dataset">
+<meta name="DC.language" content="fr">
 
-    <!-- SEO classique -->
-    <meta name="description" content="Description de la page pour le SEO">
-    <link rel="stylesheet" href="styles.css">
+<style>
+body { font-family: Arial; max-width: 1000px; margin: auto; }
+article { border-bottom: 1px solid #ccc; padding: 20px 0; }
+img { max-width: 140px; float: right; margin-left: 15px; }
+.meta { font-size: 0.9em; color: #555; }
+</style>
+
 </head>
+
 <body>
+
 <header>
-    <div class="container">
-        <h1>Nom du site</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+<h1>Mini biographies (données sémantisées)</h1>
 </header>
 
 <main>
-    <div class="container">
 
-        <article>
-            <header>
-                <h2>Titre de l'article</h2>
-                <p>
-                    <time datetime="2026-05-04">4 mai 2026</time> — 
-                    Par <span class="author">Auteur</span>
-                </p>
-            </header>
+<!-- Exemple complet : Albert Einstein -->
+<article itemscope 
+         itemtype="https://schema.org/Person"
+         itemid="https://www.wikidata.org/entity/Q937">
 
-            <section>
-                <h3>Introduction</h3>
-                <p>On va tenter une page</p>
-            </section>
+<h2 itemprop="name">Albert Einstein</h2>
 
-            <footer>
-                <p>Mots-clés : HTML5, Dublin Core, métadonnées</p>
-            </footer>
-        </article>
-        <aside>
-            <h2>À lire aussi</h2>
-            <p></p>
-        </aside>
-    </div>
+<img src="images/Albert Einstein Head cleaned.jpg"
+     alt="Albert Einstein"
+     itemprop="image">
+
+<p>
+<strong>Nom :</strong> <span itemprop="familyName">Einstein</span><br>
+<strong>Prénom :</strong> <span itemprop="givenName">Albert</span><br>
+
+<strong>Date de naissance :</strong>
+<time itemprop="birthDate" datetime="1879-03-14">14 mars 1879</time><br>
+
+<strong>Profession :</strong>
+<span itemprop="jobTitle">Physicien théoricien</span><br>
+
+<strong>Nationalité :</strong>
+<span itemprop="nationality">Royaume de Wurtemberg</span>
+</p>
+
+<p itemprop="description">
+Physicien majeur du XXe siècle, connu pour la théorie de la relativité.
+</p>
+
+<div class="meta">
+Identifiant :
+<span itemprop="identifier">Q937</span><br>
+
+Source :
+<a href="https://www.wikidata.org/wiki/Q937"
+   itemprop="sameAs"
+   target="_blank">Wikidata</a>
+</div>
+
+</article>
+
+<!-- Patron générique pour toutes les autres entrées -->
+<!-- Vous dupliquez ce bloc en injectant les valeurs -->
+
+<article itemscope 
+         itemtype="https://schema.org/Person"
+         itemid="https://www.wikidata.org/entity/Q517">
+
+<h2 itemprop="name">Napoléon Bonaparte</h2>
+
+<img src="images/Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg"
+     itemprop="image">
+
+<p>
+<span itemprop="givenName">Napoléon</span>
+<span itemprop="familyName">Bonaparte</span><br>
+
+<time itemprop="birthDate" datetime="1769-08-15">15 août 1769</time><br>
+
+<span itemprop="jobTitle">Politicien</span><br>
+
+<span itemprop="nationality">France</span>
+</p>
+
+<div class="meta">
+<span itemprop="identifier">Q517</span><br>
+<a href="https://www.wikidata.org/wiki/Q517" itemprop="sameAs">Wikidata</a>
+</div>
+
+</article>
+
 </main>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2026 Nom du site</p>
-    </div>
-</footer>
 
 </body>
 </html>
