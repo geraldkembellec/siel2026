@@ -25,4 +25,4 @@ On mettra les données en formes avec une IA sous la forme de microdonnées ou d
 
 Puis on intègre tout ça dans une page Web publiée en ligne. On la vérifie.
 
-Et après, on fait un agent IA ?
+Et après, on fait un agent IA qui fait ça à notre place?
