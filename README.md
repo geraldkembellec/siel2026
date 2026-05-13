@@ -17,11 +17,11 @@ et il pourra être décrit avec le schéma : Person
 Grace à *OpenRefine* on pourra aussi connaitre son "occupation", ses dates et lieux de naissance, de mort, son oeuvre principale...
 
 Les jeux seront publiés ici :
-- Les personnes
-- Les faits
-- les lieux
+- Les personnes ;
+- Les faits ;
+- les lieux.
 
-On mettra les données en formes avec une IA sous la forme de microdonnées ou de json-ld (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
+On mettra les données en formes avec une IA sous la forme de microdonnées ou de *json-ld* (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
 
 Puis on intègre tout ça dans une page Web publiée en ligne. On la vérifie.
 
