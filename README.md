@@ -13,7 +13,8 @@ Hezarfen Ahmet Çelebi,
 Halit Ziya Uşaklıgil, 
 Orhan Veli Kanık, 
 Barbaros Hayrettin,
-Humbaracı Ahmet Paşa (Claude Alexandre Comte de Bonneval) 
+Humbaracı Ahmet Paşa (Claude Alexandre Comte de Bonneval) https://fr.wikipedia.org/wiki/Claude_Alexandre_de_Bonneval
+
 
 Nous proposons de préparer des information "fiables" à partir du schéma de données de schema.org.
 Par exemple, pour une personne : [https://schema.org/Person](https://schema.org/Person).
